@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+
+section {
+    border: #fff solid 0.5px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 25px;
+    width: 85%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    border: #fff solid 1px;
+    padding: 5px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+select {
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    border-radius: 25px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    border: #fff solid 1px;
+    color: #fff;
+    background-color: inherit;
+}
+
+input[type="text"] {
+    border: 5px solid #fff;
+}
+
+input[type="number"] {
+    width: 15%;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+summary {
+    font-size: 1.5rem;
+    outline: none;
+}
+
+table {
+    border: white solid 1px;
+    text-align: center;
+    margin: 5px auto;
+    overflow: scroll;
+}
+
+td {
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+.qtitle {
+    font-size: 1.8rem;
+    width: 50%;
+}
+
+.question {
+    width: 50%;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.link {
+    border: none;
+    text-decoration: underline;
+}
+
+.center {
+    margin: 45vh auto;
+}
+
+#shared {
+    background-color: green;
+}
+
+#notShared {
+    background-color: red;
+}
+
+#question {
+    display: none;
+}
+
